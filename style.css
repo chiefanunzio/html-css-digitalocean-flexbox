@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li a i{
+  margin-left: 5px;
+}
+
+header{
+  background-color: #ccc;
+}
+
+nav{
+  min-height: 30px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav > div >img{
+  width: 100px;
+}
+
+.hamburger{
+  display: none;
+}
